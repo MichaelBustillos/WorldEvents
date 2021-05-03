@@ -1,0 +1,25 @@
+.carousel {
+  height: 300px;
+  width: 100%;
+  padding: auto;
+  span {
+    visibility: hidden;
+  }
+  .each-slide {
+    height: 250px;
+    width: 100%;
+    #slidePic {
+      height: 100%
+    }
+    .slideBLM{
+      background-image: url(../img/blm.jpg);
+      background-size: 100% 250px;
+    } .slideENDANGERED {
+      background-image: url(../img/endangered.jpg);
+      background-size: 100% 250px;
+    } .slideGENOCIDE {
+      background-image: url(../img/genocide.jpg);
+      background-size: 100% 250px;
+    }
+  }
+}

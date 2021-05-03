@@ -1,0 +1,23 @@
+.body {
+  .topNav {
+    width: 100%;
+    height: 75px;
+    .homeLink {
+      display: inline-block;
+      width: 25%;
+      height: 100%;
+      // background-image: url(../img/globe.jpeg);
+      // background-size: 80px 80px;
+    }
+    .navLinks {
+      display: inline-flex;
+      width: 50%;
+      height: 100%;
+    }
+    .authLinks {
+      display: inline-flex;
+      width: 25%;
+      height: 100%;
+    }
+  }
+}

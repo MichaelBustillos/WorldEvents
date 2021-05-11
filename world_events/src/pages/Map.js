@@ -14,7 +14,7 @@ export default function Map({}) {
       <div className="Map">
         <div className="googleMap">
         <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyD1WcbAFPxRj_CmDiXCo38yBh3gZaTeEaY" }}
+        bootstrapURLKeys={{ key: PUT HERE FOR LATER }}
         defaultCenter={center}
         defaultZoom={zoom}
         yesIWantToUseGoogleMapApiInternals={true}

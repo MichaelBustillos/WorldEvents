@@ -14,6 +14,9 @@ const slideImages = [
 export default function Hub() {
     return (
       <div className="Hub">
+        <div className="title">
+          <h1>Insight</h1>
+        </div>
         <div className="carousel">
           <Slide easing="ease">
             <div className="each-slide">

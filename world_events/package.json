@@ -10,13 +10,14 @@
     "node-sass": "^4.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-flippy": "^1.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-slideshow-image": "^3.4.6",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=4000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import { Slide } from 'react-slideshow-image';
+import BlogList from '../component/BlogList';
 import 'react-slideshow-image/dist/styles.css'
 import '../style/Hub.scss';
+import { BLOGS } from '../tempdata';
 
 const slideImages = [
   '../img/blm.jpg',
@@ -36,8 +38,10 @@ export default function Hub() {
             </div>
           </Slide>
         </div>
-        <div className="pitch">
-
+        <div className="posts">
+          <BlogList
+            blogList={BLOGS}
+            />
         </div>
         <div className="instructions">
 

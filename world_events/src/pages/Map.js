@@ -13,7 +13,7 @@ export default function Map({}) {
     return (
       <div className="Map">
         <div className="googleMap">
-        <GoogleMapReact
+        {/* <GoogleMapReact
         bootstrapURLKeys={{ key: PUT HERE FOR LATER }}
         defaultCenter={center}
         defaultZoom={zoom}
@@ -21,7 +21,7 @@ export default function Map({}) {
         onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
         >
 
-      </GoogleMapReact>
+      </GoogleMapReact> */}
         </div>
       </div>
     );

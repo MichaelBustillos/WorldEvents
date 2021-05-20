@@ -1,12 +1,16 @@
 .Hub {
   .title {
+    position: relative;
+    top: 150px;
     margin-left: 10%;
   }
   .carousel {
+    z-index: 100;
+    position: relative;
+    top: 150px;
     height: 300px;
     margin:auto;
     width: 90%;
-    padding: auto;
     border-style: solid;
     border-radius: 10px;
     span {
@@ -20,7 +24,7 @@
         border-radius: 5px;
       }
       .slideBLM{
-        background-image: url(../img/blm.jpg);
+        background-image: url('../img/blm.jpg');
         background-size: 100% 250px;
       } .slideENDANGERED {
         background-image: url(../img/endangered.jpg);
@@ -30,5 +34,15 @@
         background-size: 100% 250px;
       }
     }
+  }
+  #home-blogs {
+    position: relative;
+    top: 175px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
   }
 }

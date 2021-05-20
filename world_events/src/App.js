@@ -22,17 +22,25 @@ export default function App() {
 				<nav className="topNav">
 					{/* Homepage link */}
 					<div className="homeLink">
-						<Link to="/">
-              <img src='./img/globe.jpeg' alt="globe"/>
-            </Link>
+            <div className="globe">
+  						<Link to="/">
+                <div className="globe-img"/>
+              </Link>
+            </div>
 					</div>
 					<div className="navLinks">
-            <Link to="/Posts">Posts</Link>
-						<Link to="/Map">Map</Link>
-						<Link to="/Mission">Mission</Link>
+            <div id="route-wrapper">
+              <Link to="/Posts">Posts</Link>
+            </div>
+            <div id="route-wrapper">
+  						<Link to="/Map">Map</Link>
+            </div>
+            <div id="route-wrapper">
+  						<Link to="/Mission">Mission</Link>
+            </div>
 					</div>
           <div className="authLinks">
-            <Link>Login</Link>
+            <Link>Login | Register</Link>
           </div>
         </nav>
 
